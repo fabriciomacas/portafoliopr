@@ -1,36 +1,43 @@
-# Portafolio PR - Universidad Nacional de Loja
 
-## Estructura del Proyecto
+# 📊 Portafolio de Inferencia Estadística
 
-Este repositorio contiene documentos organizados por categoría:
+## Universidad Nacional de Loja
 
-### 📁 Carpeta APE (Aprendizaje Práctico Experimental)
-Contiene 5 prácticas de estadística y análisis de datos:
-- **APE_006_Distribuciones.ipynb** - Distribuciones Discretas Notables (Binomial, Poisson)
-- **APE_007_TLC.ipynb** - Teorema del Límite Central
-- **APE_008_Intervalos.ipynb** - Intervalos de Confianza
+**Carrera:** Computación
 
-### 📁 Carpeta AA (Análisis Avanzado)
-Contiene documentos de análisis más profundo:
-- **ABI1_GrupoG.ipynb** - Análisis Avanzado I
-- **ABI2_GrupoG.ipynb** - Análisis Avanzado II
-
-## Grupo de Trabajo - Grupo G
-
-### Integrantes:
-- Emerson Sebastian Chamba Galarza
-- Matias Sebastian Labanda Pineda
-- Lenin Fabricio Macas Cabrera
-- Pilar Valentina Naranjo Quizhpe
-- Mateo Sebastian Pucha Carrera
-
-## Profesor
-Ing. Cristian Narváez G. Mg.Sc.
-
-## Carrera
-Carrera de Computación
-Facultad de Energía, las Industrias y los Recursos Naturales no Renovables
+**Estudiante:** Lenin Fabricio Macas Cabrera
 
 ---
 
-*Proyecto desarrollado en la Universidad Nacional de Loja*
+## Objetivo
+
+Este repositorio recopila las actividades desarrolladas durante la unidad de Inferencia Estadística. Incluye notebooks elaborados en Jupyter y una bitácora que resume el aprendizaje alcanzado y las dificultades superadas.
+
+---
+
+## Contenido
+
+### 📂 AA
+
+- AA_GrupoG.ipynb
+- ABI_GrupoG.ipynb
+- ABI2_GrupoG.ipynb
+
+### 📂 APE
+
+- APE_009_Hipotesis_GrupoG.ipynb
+- APE_010_DosMuestras.ipynb
+
+---
+
+## Bitácora
+
+El archivo `bitacora.md` contiene la autoevaluación y la reflexión sobre el proceso de aprendizaje durante esta unidad.
+
+---
+
+## Autor
+
+**Lenin Fabricio Macas Cabrera**
+
+Universidad Nacional de Loja
