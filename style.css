@@ -1,1 +1,428 @@
+/* ===========================
+   IMPORTAR FUENTE
+=========================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===========================
+   CONFIGURACIÓN GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.7;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:#0d47a1;
+    z-index:1000;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:70px;
+}
+
+.logo{
+    color:white;
+    font-size:22px;
+    font-weight:700;
+}
+
+.logo i{
+    margin-right:8px;
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+.navbar li{
+    margin-left:25px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:.3s;
+}
+
+.navbar a:hover{
+    color:#90caf9;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(rgba(13,71,161,.82),
+    rgba(21,101,192,.82)),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=80");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+    padding:40px;
+
+}
+
+.hero h3{
+
+    font-size:26px;
+
+    margin-bottom:15px;
+
+}
+
+.hero h1{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.hero h2{
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+    color:#bbdefb;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    margin-bottom:35px;
+
+}
+
+/* ===========================
+   BOTÓN
+=========================== */
+
+.btn{
+
+    background:white;
+
+    color:#0d47a1;
+
+    text-decoration:none;
+
+    padding:14px 32px;
+
+    border-radius:40px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+    display:inline-block;
+
+}
+
+.btn:hover{
+
+    background:#0d47a1;
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+
+/* ===========================
+   SECCIONES
+=========================== */
+
+section{
+
+    padding:110px 10%;
+
+}
+
+section h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    color:#0d47a1;
+
+    margin-bottom:50px;
+
+}
+
+/* ===========================
+   CONTENEDOR
+=========================== */
+
+.container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   TARJETAS
+=========================== */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    text-align:center;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+
+}
+
+.card i{
+
+    font-size:55px;
+
+    color:#1565c0;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+    color:#0d47a1;
+
+}
+
+.card p{
+
+    margin-bottom:20px;
+
+}
+
+.card a{
+
+    display:inline-block;
+
+    padding:12px 25px;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#1565c0;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.card a:hover{
+
+    background:#0d47a1;
+
+}
+
+/* ===========================
+   CONTACTO
+=========================== */
+
+.contact{
+
+    max-width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.contact p{
+
+    margin:18px 0;
+
+    font-size:18px;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    background:#0d47a1;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:40px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+}
+
+.navbar{
+
+flex-direction:column;
+
+height:auto;
+
+padding:20px 0;
+
+}
+
+.navbar ul{
+
+margin-top:15px;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.navbar li{
+
+margin:10px;
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+.hero h3{
+
+font-size:18px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+section h2{
+
+font-size:28px;
+
+}
+
+.card{
+
+padding:25px;
+
+}
+
+}
